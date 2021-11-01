@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .flex{
+        display: flex;
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    .center-hv{
+        justify-content: center;
+        align-items: center;
+    }
+    .topo, .rodape{
+        height: 40px;
+        width: 100%;
+    }
+    .tela{
+        width: 320px;
+        height: 180px;
+        background-color: #37474f;
+        border-radius: 5px;
+        justify-content: space-between;
+    }
+    .bola  {
+        width: 80px;
+        height: 80px;
+        background-color: wheat;
+        border-radius: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .column{
+        flex-direction: column;
+    }
+    .material-icons{
+        color: white;
+    }
+    .topo{
+        justify-content: flex-end;
+    }
+    div.rodape{
+        color: white;
+        font-size: 20px;  
+        align-items: center;
+    }
+    span{
+        height: 35px;
+        width: 35px;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    span:hover{
+        border-radius: 100%;
+        background-color: gray;
+
+    }
+    .label-bola{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 42px;
+        color: rgba(92, 88, 88, 0.966);
+    }
+</style>
+<body class="flex center-hv">
+
+    <div class="tela flex column center-hv">
+        <div class="topo flex"><span class="material-icons flex">
+            mic_off
+            </span></div>
+        <div class="bola flex"><label class="label-bola">R</label></div>
+        <div class="rodape flex"><label class="flex div-rodape">Rafael Tavares</label></div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #FFE0B2;
+        width: 100vw;
+        height: 100vh;
+    }
+    main{
+        margin: 30px auto;
+        width: 600px;
+        height:auto;
+        border: 1px solid #ff8a65;
+        background-color: #Fbe9e7;
+        display: flex;
+        flex-direction: column;
+    }
+    .stretch{
+        align-items: stretch;
+    }
+    div{
+        width: 100px;
+
+        padding: 10px;
+        /* background-color: #5e35b1; */
+        margin: 2px;
+    }
+    .tamanhofixo{
+        height: 100px;
+    }
+    header{
+        width: 100%;
+        height: 60px;
+        background-color: blueviolet;
+    }
+    .flex{
+        display: flex;
+    }
+    #content{
+        background-color: chartreuse;
+        width: 70%;
+        height: 100vw;
+    }
+    #barra{
+        background-color: brown;
+        width: 30%;
+        height: 100vw;
+    }
+    #ajuste{
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+</style>
+<body>
+    <main>
+        <header></header>
+    <div class="flex" id="ajuste">
+        <section id="content" class="flex"></section>
+        <section id="barra" class="flex"></section>
+    </div>
+</body>
+</html>

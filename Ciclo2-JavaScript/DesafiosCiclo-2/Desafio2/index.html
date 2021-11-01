@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header id="header-top" class="flex">
+        <h1 class="flex">ME ACHA!</h1>
+        <h2 class="flex">ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</h2>
+        <div id="div-icon"><span class="material-icons flex">
+            travel_explore
+            </span></div>
+    </header>
+    <main class="flex">
+        <form method="GET" class="flex">
+            <fieldset class="flex">
+                <label for="CEP" class="flex">Cep</label>
+                <input type="text" class="flex" id="cep" name="CEP" value="">
+                <label for="RUA" class="flex">Rua</label>
+                <input type="text" class="flex" id="logradouro" name="RUA" value="">
+                <label for="BAIRRO" class="flex">Bairro</label>
+                <input type="text" class="flex" id="bairro" name="BAIRRO" value="">
+                <label for="CIDADE" class="flex">Cidade</label>
+                <input type="text" class="flex" id="localidade" name="CIDADE" value="">
+                <label for="ESTADO" class="flex">Estado</label>
+                <input type="text" class="flex" id="uf" name="ESTADO" value="">
+                <input type="button" id="button" value="BUSCAR">
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

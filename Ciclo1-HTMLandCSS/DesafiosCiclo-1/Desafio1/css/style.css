@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cores-usadas1:#212121; 
+    --cores-usadas2: red; 
+    --cores-usadas3:#F9A825;
+    --fonte-principal: helvetica;
+    font-size: 16px;
+}
+header, main, footer{
+    width: 100%;
+}
+header#top{
+    height: 40px;
+    font-family: var(--fonte-principal);
+    background-color: #212121;
+    flex-wrap: wrap;
+}
+footer{
+    height: 80px;
+    background-color: #212121;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+main{
+    height: 67.58vh;
+    flex-wrap: wrap;
+}
+
+.flex{
+    display: flex;
+    font-family: var(--fonte-principal)
+}
+header#top nav ul#list-top {
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    display: inline-flex;
+    gap: 6vw;
+    justify-content: center;
+    align-items: center;
+
+}
+header#top h1{
+    width: 55%;
+    color: #fff;
+    align-items: center;
+    padding-left: 10vw;
+    flex-grow: 1;
+    font-size: clamp(0.8rem, 1.2rem, 1.6rem);
+}
+header#top nav{
+    width: 45%;
+    height: 100%;
+    font-size: 0.9rem;
+    flex-grow: 1;
+    font-size: clamp(0.6rem, 1rem, 1.4rem);
+}
+a.ancora{
+    color: #fff;
+    text-decoration: none;
+    height: 100%;
+    width:5vw;
+    justify-content: center;
+    align-items: center;
+}
+a.ancora:hover{
+    background-color: #F9A825;
+    cursor: pointer;
+    border-radius: 20px;
+}
+header#top nav ul#list-top li{
+    height: 70%;
+}
+div#div-principal-main{
+    margin:auto;
+    margin-top: 20vh;
+    width: 40vw;
+    height: 30vh;
+    padding:20px;
+    border-radius: 3px;
+    border:2px solid rgba(20, 78, 187, 0.822);
+    flex-grow: 1;
+    font-size: clamp(0.6rem, 1rem, 1.4rem);
+}
+p#div-1{
+    padding-right: 20px;
+    align-items: center;
+    padding-left: 20px;
+    height: 100%;
+    font-size: clamp(0.4rem, 1rem, 1.4rem);
+}
+div#div-2{
+    width: 50%;
+    height: 100%;
+    padding-left: 10px;
+    flex-direction: column;
+    font-size: clamp(0.6rem, 1rem, 1.4rem);
+}
+div#div-pai-div-1 {
+    height: 100%;
+    width: 50%;
+    border-right: 2px  dotted black;
+    font-size: clamp(0.6rem, 1rem, 1.4rem);
+}
+input#button {
+    margin-left: 6.5vw;
+    width: 18%;
+    cursor: pointer;
+    background-color: rgb(176, 190, 197);
+    height: 3vh;
+    background-color: whitesmoke;
+}
+
+form#div-email {
+    height: 55%;
+    width: 100%;
+    margin-top: 7vh;
+    font-size: clamp(0.6rem, 1rem, 1.4rem);
+}
+form#div-enviar {
+    width: 100%;
+    height: 45%;
+    margin: 0; 
+    padding-top:25px;
+    padding-bottom: 25px;
+    font-size: clamp(0.6rem, 1rem, 1.4rem);
+}
+input#email{
+    width: 90%;
+    margin-top: 10px;
+}
+div#div-footer{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    font-size: clamp(0.6rem, 1rem, 1.4rem);
+}
+label.flex, input#email{
+    margin-bottom: 26px;
+    font-size: clamp(0.6rem, 1rem, 1.4rem);
+}
