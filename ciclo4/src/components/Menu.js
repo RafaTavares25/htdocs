@@ -23,9 +23,28 @@ export const Menu = (props) => {
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="mr-auto" navbar>
-                            <NavItem>
+                            {/* <NavItem>
                                 <NavLink href="/">Home</NavLink>
+                            </NavItem> */}
+                            <NavItem>
+                                <NavLink href="/listar-clientes">Clientes</NavLink>
                             </NavItem>
+                            <NavItem>
+                                <NavLink href="/listar-pedidos">Pedidos</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="/listar-servicos">Serviços</NavLink>
+                            </NavItem>   
+                            <NavItem>
+                                <NavLink href="/listar-itensp">Itens Pedidos</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="/listar-compras">Compras</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="/listar-produtos">Produtos</NavLink>
+                            </NavItem>
+                                <NavLink href="/listar-itensc">Itens Comprados</NavLink>
                         </Nav>
                     </Collapse>
                 </Container>    
